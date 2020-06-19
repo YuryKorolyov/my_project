@@ -1,6 +1,52 @@
-h2{
-  color:red;
-  background-color:black;
-  border-radius:10px;
-  padding:20px;
+html{
+  text-decoration:none;
+}
+
+ul{
+  list-style:none;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.header{
+  box-sizing: border-box;
+  min-height:130px;
+  background-color:#292929;
+  border-bottom:3px solid black;
+}
+
+.container{
+  max-width:900px;
+  margin:0 auto 0 auto;
+}
+
+.header-logo{
+  float:left;
+  color:white;
+  margin-top:35px;
+  font-size:30px;
+}
+
+.header-nav{
+  float:right;
+}
+
+.header-nav-list{
+  display:block;
+  color:white;
+  max-height:130px;
+}
+
+.header-nav-list a{
+  display:inline-block;
+  border-right:1px solid black;
+  padding:40px;
 }
